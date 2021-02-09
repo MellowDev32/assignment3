@@ -1,0 +1,80 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Feb 9, 2021, 5:02:28 PM
+    Author     : Clint
+*/
+
+aside {
+    position: fixed;
+    float: left;
+    border: 1px black solid;
+    padding: 5px;
+    margin: 10px;
+    background-color: white;
+    width: 20%;
+    min-width: 20%;
+}
+
+.content{
+    float: right;
+    margin: 0 1.5%;
+    width: 63%;
+    margin-right: 15%;
+    margin-left: 25%;
+    max-width: 63%;
+}
+
+html, body {
+    height: 100%;
+}
+main {
+    min-height: 100%;
+    margin-bottom: -50px;
+    background: #ddd;
+}
+main:after {
+    content: "";
+    display: block;
+    height: 100px;
+}
+footer {
+    height: 100px;
+    background: white;
+}
+
+header {
+    text-align: center;
+    margin: auto;
+}
+
+.congrats{
+    padding: 10px;
+}
+
+.display{
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: white;
+}
+
+.display td, th{
+    border: 1px solid black;
+    padding: 5px;
+}
+
+.display td{
+    text-align: center;
+}
+
+.display tr:hover{
+    background-color: powderblue;
+}
+
+.display th, tr:hover{
+    background-color: white;
+}
